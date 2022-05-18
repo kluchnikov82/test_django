@@ -2,6 +2,7 @@
 установить зависимости - pipenv - sync; pipenv shell.  
 создать бд postgres: sudo su postgres; CREATE DATABASE test_django; GRANT ALL privileges ON DATABASE test_django TO postgres;  
 запустить проект из каталога backend:  ./manage.py runserver  
+либо docker-compose up -d
 
 Примеры запросов из Postman:  
 Получить список Торговых точек привязанных к переданному номеру телефона  
