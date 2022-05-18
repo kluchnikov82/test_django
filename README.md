@@ -1,5 +1,5 @@
 Чтобы запустить проект нужно:  
-установить зависимости - pipenv - sync; pipenv shell.  
+установить зависимости backend/requirements.txt: pip install -r requirements.txt  
 создать бд postgres: sudo su postgres; CREATE DATABASE test_django; GRANT ALL privileges ON DATABASE test_django TO postgres;  
 запустить проект из каталога backend:  ./manage.py runserver  
 либо docker-compose up -d
