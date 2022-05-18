@@ -9,17 +9,17 @@
 http://127.0.0.1:8000/visits/list_point_sale/?num_ph=8932454545454  
 Ответ:  
 {  
-  "Points of sale:": [
-    {
-      "uuid": "b2d29867-3d0b-d497-9191-18a9d8ee1111",
-      "name": "MTS"
-    },
-    {
-      "uuid": "b2d29867-3d0b-d497-9191-18a9d8ee2222",
-      "name": "Beeline"
-    }
-  ]
-}
+  "Points of sale:": [  
+    {  
+      "uuid": "b2d29867-3d0b-d497-9191-18a9d8ee1111",  
+      "name": "MTS"  
+    },  
+    {  
+      "uuid": "b2d29867-3d0b-d497-9191-18a9d8ee2222",  
+      "name": "Beeline"  
+    }  
+  ]  
+}  
 
 
 Выполнить посещение в Торговую точку  
