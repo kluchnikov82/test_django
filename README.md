@@ -2,7 +2,7 @@
 установить зависимости backend/requirements.txt: pip install -r requirements.txt  
 создать бд postgres: sudo su postgres; CREATE DATABASE test_django; GRANT ALL privileges ON DATABASE test_django TO postgres;  
 запустить проект из каталога backend:  ./manage.py runserver  
-либо docker-compose up -d (предварительно в backend/cfg/settings.py закомментировав 'HOST': '127.0.0.1' и раскомментировав  'HOST': '172.20.0.100',) и сервер запустится  по адресу http://0.0.0.0:8000/ . Там уже будет смонтированна готовая база (заполненая). Вход в админку  
+либо запустить из папки /backend/ docker-compose up -d (предварительно в backend/cfg/settings.py закомментировав 'HOST': '127.0.0.1' и раскомментировав  'HOST': '172.20.0.100',) и сервер запустится  по адресу http://0.0.0.0:8000/  Бывает глючит создание образа web (после остановки с ошибкой, просто запустить команду втроой раз). Там уже будет смонтированна готовая база (заполненая). Вход в админку  
 логин: admin  
 пароль: admin01  
 
