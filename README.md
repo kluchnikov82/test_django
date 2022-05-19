@@ -8,7 +8,7 @@
 
 Примеры запросов из Postman:  
 Получить список Торговых точек привязанных к переданному номеру телефона  
-http://127.0.0.1:8000/visits/list_point_sale/?num_ph=8932454545454  
+http://127.0.0.1:8000/visits/list_point_sale/?num_ph=8932454545454  для докера это будет http://0.0.0.0:8000/visits/list_point_sale/?num_ph=8932454545454  
 Ответ:  
 {  
   "Points of sale:": [  
@@ -25,7 +25,7 @@ http://127.0.0.1:8000/visits/list_point_sale/?num_ph=8932454545454
 
 
 Выполнить посещение в Торговую точку  
-http://127.0.0.1:8000/visits/visit_point_sale/  
+http://127.0.0.1:8000/visits/visit_point_sale/  для докера это будет  http://0.0.0.0:8000/visits/visit_point_sale/    
 {  
   "point_sale_id": "b2d29867-3d0b-d497-9191-18a9d8ee1111",  
   "latitude": "19.3056342",  
