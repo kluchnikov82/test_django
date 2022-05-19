@@ -2,7 +2,7 @@
 установить зависимости backend/requirements.txt: pip install -r requirements.txt  
 создать бд postgres: sudo su postgres; CREATE DATABASE test_django; GRANT ALL privileges ON DATABASE test_django TO postgres;  
 запустить проект из каталога backend:  ./manage.py runserver  
-либо docker-compose up -d
+либо docker-compose up -d (предаврительнов в settings.py закомментировав 'HOST': '127.0.0.1' и раскомментировав  'HOST': '172.20.0.100',) и сервер запустится  по адресу http://0.0.0.0:8000/  
 
 Примеры запросов из Postman:  
 Получить список Торговых точек привязанных к переданному номеру телефона  
