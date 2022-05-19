@@ -25,7 +25,7 @@ SECRET_KEY = '-t555=7axt4v@y$wdl3pj$s_-)(ic+!=9!44e76^six2tz5rgn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -80,8 +80,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'test_django',
         'USER': 'postgres',
-        'HOST': '127.0.0.1',
-        # 'HOST': '172.19.0.100',
+        'HOST': '127.0.0.1',   # для запуска ./manage.py runserver
+        # 'HOST': '172.20.0.100',  # для запуска через докер: docker-compose up -d
         'PORT': '5432',
         'PASSWORD': 'postgres',
     },
